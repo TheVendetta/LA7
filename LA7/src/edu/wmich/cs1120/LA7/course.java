@@ -29,4 +29,15 @@ public class course  implements ICourse{
 		}
 	}
 	
+	public void printClassList() {
+		System.out.println("The class list:");
+		for(int i = 0; i < capacity; i++) {
+			System.out.print(classRoster[i] + " ");
+		}
+	}
+	
+	public boolean checkClass() {
+		return true;
+	}
+	
 }
